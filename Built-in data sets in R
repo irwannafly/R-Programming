@@ -1,0 +1,30 @@
+data()
+# Loading
+data(mtcars)
+# Print the first 6 rows
+head(mtcars, 6)
+?mtcars
+
+# 1. Loading 
+data("mtcars")
+# 2. Print
+head(mtcars)
+
+# Number of rows (observations)
+nrow(mtcars)
+
+# Number of columns (variables)
+ncol(mtcars)
+
+data("iris")
+head(iris)
+
+data("ToothGrowth")  
+head(ToothGrowth)
+
+data("PlantGrowth")
+head(PlantGrowth)
+
+data("USArrests")     
+head(USArrests)
+
