@@ -1,0 +1,4 @@
+#call random data(2 variabel)
+library(dplyr)
+df<-data_frame(x=1:1000, y=0.025+rnorm(1000))
+ggplot(df, aes(x=x, y=y)) + geom_point()
